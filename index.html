@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div
+      class="page-shadow"
+      onclick="document.body.classList.toggle('open-mobile-menu')"
+    ></div>
+    <div class="mobile-panel">
+      <nav class="mobile-menu">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">works</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <header>
+      <div class="container">
+        <div class="wrapper">
+          <div class="logo">
+            <a href="#">
+              <img src="assets/images/logo.svg" alt="Logo" />
+            </a>
+          </div>
+          <nav class="main-menu">
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">works</a></li>
+              <li><a href="#">blog</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </nav>
+          <div class="buttons">
+            <button type="button" class="btn">
+              <img src="assets/images/search.svg" alt="" />
+            </button>
+          </div>
+          <div class="hamburger">
+            <button
+              type="button"
+              class="hamb-btn"
+              onclick="document.body.classList.toggle('open-mobile-menu')"
+            >
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="hero-section-wrapper">
+        <div
+          class="hero-section lazy small"
+          data-bg="assets/images/bg-image-s.jpg"
+        ></div>
+        <div
+          class="hero-section lazy medium"
+          data-bg="assets/images/bg-image-m.jpg"
+        ></div>
+        <div
+          class="hero-section lazy large"
+          data-bg="assets/images/bg-image.jpg"
+        ></div>
+        <div class="container">
+          <h1>Manifest is a newborn theme. Clean, simple and fast.</h1>
+        </div>
+      </div>
+
+      <section class="blog-section">
+        <div class="container">
+          <h2>Blog</h2>
+          <div class="content-wrapper">
+            <div class="image-column">
+              <picture>
+                <img src="assets/images/article.image.png" />
+              </picture>
+            </div>
+
+            <div class="text-column">
+              <small>Technology, Interface Design</small>
+              <h2>Using UX Design to Build a Sustainable Future</h2>
+              <small>6 May, 2020</small>
+              <p>
+                Transformation has to be driven by everybody, not just by
+                climate groups, and we have a responsibility to use our
+                influence to drive this.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section">
+        <div class="container">
+          <div class="content-wrapper">
+            <div class="text-column">
+              <small>Technology, Interface Design</small>
+              <h2>Using UX Design to Build a Sustainable Future</h2>
+              <small>6 May, 2020</small>
+              <p>
+                Transformation has to be driven by everybody, not just by
+                climate groups, and we have a responsibility to use our
+                influence to drive this. <img src="assets/images/arrow.svg" />
+              </p>
+            </div>
+
+            <div class="image-column">
+              <picture>
+                <img src="assets/images/blog-image.png" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section">
+        <div class="container">
+          <div class="post-header-wrapper">
+            <h2>Latest Posts</h2>
+
+            <a href="#">View All <img src="assets/images/all-arrow.svg" /></a>
+          </div>
+
+          <div class="posts-wrapper">
+            <article class="post">
+              <div class="post-image">
+                <img
+                  src="assets/images/posts-lamp.png"
+                  alt="UX traffic light colours"
+                />
+              </div>
+              <div class="post-content">
+                <div class="small-wrapper">
+                  <small>Interface Design</small>
+                  <small>8 June, 2020</small>
+                </div>
+
+                <h3>UX traffic light colours</h3>
+                <p>
+                  UI has to make a huge visual difference between warning, an
+                  alert and a success.
+                </p>
+              </div>
+            </article>
+
+            <article class="post">
+              <div class="post-image">
+                <img
+                  src="assets/images/posts-arrow.png"
+                  alt="Using UX Design to Build a Sustainable Future"
+                />
+              </div>
+              <div class="post-content">
+                <div class="small-wrapper">
+                  <small>Technology</small>
+                  <small>6 May, 2020</small>
+                </div>
+                <h3>Using UX Design to Build a Sustainable Future</h3>
+
+                <p>
+                  UI has to make a huge visual difference between warning, an
+                  alert and a success.
+                </p>
+              </div>
+            </article>
+
+            <article class="post">
+              <div class="post-image">
+                <img
+                  src="assets/images/posts-house.png"
+                  alt="Creativity vs. UX"
+                />
+              </div>
+              <div class="post-content">
+                <div class="small-wrapper">
+                  <small>Visual Design</small>
+                  <small>8 June, 2020</small>
+                </div>
+                <h3>Creativity vs. UX</h3>
+
+                <p>
+                  Is it possible to create a delightful user experience without
+                  following best UX practices?
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section">
+        <div class="container">
+          <div class="post-header-wrapper">
+            <h2>The Most Popular</h2>
+
+            <a href="#" class="view-all"
+              >View All <img src="assets/images/all-arrow.svg"
+            /></a>
+          </div>
+
+          <div class="posts-wrapper">
+            <article class="post">
+              <div class="post-image">
+                <img
+                  src="assets/images/lamp.png"
+                  alt="UX traffic light colours"
+                />
+              </div>
+              <div class="post-content">
+                <div class="small-wrapper">
+                  <small>Interface Design</small>
+                  <small>8 June, 2020</small>
+                </div>
+
+                <h3>
+                  Mentorship Match — How a simple LinkedIn feature can boost
+                  diversity
+                </h3>
+                <p>
+                  LinkedIn is on a clear mission to make professionals more
+                  successful by connecting the global workforce and as we
+                  learned — diversity and success go hand in hand
+                </p>
+              </div>
+            </article>
+
+            <article class="post">
+              <div class="post-image">
+                <img
+                  src="assets/images/arrow-img.png"
+                  alt="Using UX Design to Build a Sustainable Future"
+                />
+              </div>
+              <div class="post-content">
+                <div class="small-wrapper">
+                  <small>Technology</small>
+                  <small>6 May, 2020</small>
+                </div>
+                <h3>Creativity vs. UX</h3>
+
+                <p>
+                  Is it possible to create a delightful user experience without
+                  following best UX practices?
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="buttons">
+            <button type="button" class="btn">Load More</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section">
+        <div class="container">
+          <div class="posts-wrapper">
+            <article class="post">
+              <div class="post-content">
+                <h5>
+                  Full-time UI/UX designer Head of Design at VeronaLabs.com
+                </h5>
+                <img src="assets/images/all-arrow.svg" />
+              </div>
+            </article>
+
+            <article class="post">
+              <div class="post-content">
+                <p>
+                  We work with clients around the world from our headquarters in
+                  Charleston, South Carolina. We focus on naming, branding,
+                  brand narratives, website design and development, and brand
+                  experiences.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="item-footer">
+              <h3>Need a project?</h3>
+              <div class="contact-info">
+                <p>(239) 555-0108</p>
+                <p>tanya.hill@example.com</p>
+              </div>
+            </div>
+            <div class="item-footer">
+              <div class="social-icons">
+                <ul>
+                  <li>
+                    <svg class="icon">
+                      <use xlink:href="assets/images/sprite.svg#i"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon">
+                      <use xlink:href="assets/images/sprite.svg#f"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon">
+                      <use xlink:href="assets/images/sprite.svg#x"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon">
+                      <use xlink:href="assets/images/sprite.svg#ln"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <p class="copy">
+            &copy; Copyright Manifest Theme. All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/lazyload.min.js"></script>
+    <script>
+      var lazyLoadInstance = new LazyLoad({});
+    </script>
+  </body>
+</html>
